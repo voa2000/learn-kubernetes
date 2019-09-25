@@ -22,3 +22,7 @@ A node is a worker machine in Kubernetes and may be a VM or physical machine, de
 -  kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2 //update app
 -  kubectl rollout status deployments/kubernetes-bootcamp // rollback app
 -  kubectl rollout undo deployments/kubernetes-bootcamp //revert to the previous version 
+
+
+Course on udemy
+* https://classroom.udacity.com/courses/ud615
