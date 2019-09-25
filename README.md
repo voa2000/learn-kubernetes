@@ -18,3 +18,4 @@ A node is a worker machine in Kubernetes and may be a VM or physical machine, de
 * In the previous modules we created a Deployment, and then exposed it publicly via a Service. The Deployment created only one Pod for running our application. When traffic increases, we will need to scale the application to keep up with user demand.
 
 * Scaling is accomplished by changing the number of replicas in a Deployment
+kubectl scale deployments/wordpress-mysql --replicas=4 // creates 4 including the one that already exist.
