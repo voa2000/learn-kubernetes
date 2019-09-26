@@ -39,3 +39,4 @@ What are containers and why do you need them?
 #  Shortcuts for running kubernetes on bash
 
 * https://github.com/ahmetb/kubectx/blob/master/kubens
+Can install this using '''brew install kubectx'''
