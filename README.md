@@ -34,5 +34,8 @@ Containers bring a skinny new world of virtualization to Linux
 What are containers and why do you need them?
 
 # Cheatsheet for K8s
-https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+* https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
+#  Shortcuts for running kubernetes on bash
+
+* https://github.com/ahmetb/kubectx/blob/master/kubens
