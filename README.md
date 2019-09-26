@@ -26,3 +26,9 @@ A node is a worker machine in Kubernetes and may be a VM or physical machine, de
 
 Course on udemy
 * https://classroom.udacity.com/courses/ud615
+
+# Containers
+Here are two articles with a good write-ups about containers, if you want to go more in-depth about container technology:
+
+Containers bring a skinny new world of virtualization to Linux
+What are containers and why do you need them?
