@@ -40,3 +40,6 @@ What are containers and why do you need them?
 
 * https://github.com/ahmetb/kubectx/blob/master/kubens
 Can install this using ''' brew install kubectx '''
+
+# Deploying metrics from mongo to prometheus 
+• https://github.com/helm/charts/tree/master/stable/prometheus-mongodb-exporter
