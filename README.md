@@ -43,3 +43,6 @@ Can install this using ''' brew install kubectx '''
 
 # Deploying metrics from mongo to prometheus 
 • https://github.com/helm/charts/tree/master/stable/prometheus-mongodb-exporter
+
+# Secrets, Configmaps and values
+• Kubernetes secret objects let you store and manage sensitive information, such as passwords, OAuth tokens, and ssh keys. Putting this information in a secret is safer and more flexible than putting it verbatim in a Pod definition or in a container image.
