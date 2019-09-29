@@ -1,6 +1,7 @@
 # Learn Kubernetes
 
-A node is a worker machine in Kubernetes and may be a VM or physical machine, depending on the cluster. Multiple Pods can run on one Node.
+A node is a worker machine in Kubernetes and may be a VM or physical machine, depending on the cluster. 
+Multiple Pods can run on one Node.
 
 * kubectl get - list resources
 * kubectl describe - show detailed information about a resource
@@ -15,7 +16,8 @@ A node is a worker machine in Kubernetes and may be a VM or physical machine, de
 * ExternalName - Exposes the Service using an arbitrary name (specified by externalName in the spec) by returning a CNAME record with the name. No proxy is used. This type requires v1.7 or higher of kube-dns.
 
 # Scaling an application
-* In the previous modules we created a Deployment, and then exposed it publicly via a Service. The Deployment created only one Pod for running our application. When traffic increases, we will need to scale the application to keep up with user demand.
+* In the previous modules we created a Deployment, and then exposed it publicly via a Service. The Deployment created only one Pod for running our application. 
+When traffic increases, we will need to scale the application to keep up with user demand.
 
 * Scaling is accomplished by changing the number of replicas in a Deployment
 -  kubectl scale deployments/wordpress-mysql --replicas=4 // creates 4 including the one that already exist.
