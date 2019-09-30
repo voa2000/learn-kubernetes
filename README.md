@@ -50,3 +50,5 @@ Can install this using ''' brew install kubectx '''
 • Kubernetes secret objects let you store and manage sensitive information, such as passwords, OAuth tokens, and ssh keys.
 
 • Putting this information in a secret is safer and more flexible than putting it verbatim in a Pod definition or in a container image.
+# Prometheus
+https://hub.docker.com/r/prom/prometheus/
