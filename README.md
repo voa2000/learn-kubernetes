@@ -51,4 +51,5 @@ Can install this using ''' brew install kubectx '''
 
 • Putting this information in a secret is safer and more flexible than putting it verbatim in a Pod definition or in a container image.
 # Prometheus
-https://hub.docker.com/r/prom/prometheus/
+• https://hub.docker.com/r/prom/prometheus/
+• https://github.com/percona/mongodb_exporter
