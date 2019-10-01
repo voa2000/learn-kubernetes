@@ -55,5 +55,6 @@ Can install this using ''' brew install kubectx '''
 • https://github.com/percona/mongodb_exporter
 
 # IAM and RBAC
-https://miro.medium.com/max/1088/1*_XD1aE2-NIcRPF7S1fFBwg.png
+
+![Access Rights](https://miro.medium.com/max/1088/1*_XD1aE2-NIcRPF7S1fFBwg.png)
 
