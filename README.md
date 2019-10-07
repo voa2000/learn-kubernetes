@@ -60,8 +60,8 @@ Grant read only access with IAM, build on that with granular RBAC config.
 2. https://medium.com/google-cloud/gke-monitoring-84170ea44833
 ![Access Rights](https://miro.medium.com/max/1088/1*_XD1aE2-NIcRPF7S1fFBwg.png)
 
-# This has given me a good understanding of Kubernetes - https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/docs/14-cleanup.md
+### This has given me a good understanding of Kubernetes - https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/docs/14-cleanup.md
 
 Port forwarding on kubernetes
 
-# The video is about installing prometheus and grafana by editing values file https://www.youtube.com/watch?v=CmPdyvgmw-A
+### The video is about installing prometheus and grafana by editing values file https://www.youtube.com/watch?v=CmPdyvgmw-A
