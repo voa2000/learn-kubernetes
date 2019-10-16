@@ -64,7 +64,7 @@ Grant read only access with IAM, build on that with granular RBAC config.
 
 # Port forwarding on kubernetes
 
-*   The video is about installing prometheus and grafana by editing values file https://www.youtube.com/watch?v=CmPdyvgmw-A
+*   The video is about installing grafana to pull data from grafana by editing values file https://www.youtube.com/watch?v=CmPdyvgmw-A
 
 # Kubernetes Certification Course
 *  https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/learn/lecture/15264182#overview
