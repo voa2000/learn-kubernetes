@@ -7,6 +7,7 @@ Multiple Pods can run on one Node.
 * kubectl describe pod- show detailed information about a resource
 * kubectl logs - print the logs from a container in a pod
 * kubectl exec - execute a command on a container in a pod
+* kubectl get replicaset
 
 # Kubernetes Services
 
