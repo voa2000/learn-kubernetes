@@ -10,6 +10,7 @@ Multiple Pods can run on one Node.
 * kubectl get replicaset or rs
 * kubectl config set-context $(kubectl config current-context) --namespace=nameofnamespace // to switch namespaces
 * kubectl get pods --all-namespaces //to list all pods in all namespaces
+* kubectl get service . // to display all the services avaiable
 
 # Kubernetes Services Types
 
