@@ -11,7 +11,7 @@ Multiple Pods can run on one Node.
 * kubectl config set-context $(kubectl config current-context) --namespace=nameofnamespace // to switch namespaces
 * kubectl get pods --all-namespaces //to list all pods in all namespaces
 
-# Kubernetes Services
+# Kubernetes Services Types
 
 * ClusterIP (default) - Exposes the Service on an internal IP in the cluster. This type makes the Service only reachable from within the cluster.
 * NodePort - Exposes the Service on the same port of each selected Node in the cluster using NAT. Makes a Service accessible from outside the cluster using <NodeIP>:<NodePort>. Superset of ClusterIP.
