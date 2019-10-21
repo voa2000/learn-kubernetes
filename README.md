@@ -8,7 +8,7 @@ Multiple Pods can run on one Node.
 * kubectl logs - print the logs from a container in a pod
 * kubectl exec - execute a command on a container in a pod
 * kubectl get replicaset or rs
-* kubectl config set-context --namespace=nameofnamespace // to switch namespaces
+* kubectl config set-context $(kubectl config current-context) --namespace=nameofnamespace // to switch namespaces
 * kubectl get pods --all-namespaces //to list all pods in all namespaces
 
 # Kubernetes Services
