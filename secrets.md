@@ -1,5 +1,5 @@
 ## Creating a Secret Using kubectl create secret
-Say that some pods need to access a database. The username and password that the pods should use is in the files ./username.txt and ./password.txt on your local machine.
+Some pods need to access a database. The username and password that the pods should use is in the files ./username.txt and ./password.txt on your local machine.
 
 # Create files needed for rest of example.
 ```bash
