@@ -39,8 +39,8 @@ Course on udemy
 # Containers
 Here are two articles with a good write-ups about containers, if you want to go more in-depth about container technology:
 
-Containers bring a skinny new world of virtualization to Linux
-What are containers and why do you need them?
+. Containers bring a skinny new world of virtualization to Linux
+. What are containers and why do you need them?
 
 # Cheatsheet for K8s
 * https://kubernetes.io/docs/reference/kubectl/cheatsheet/
