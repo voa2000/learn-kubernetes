@@ -13,6 +13,7 @@ Multiple Pods can run on one Node.
 * kubectl get service . // to display all the services avaiable
 * kubectx config delete-cluster kubernetes-the-hard-way // to delete a cluster called kubernetes-the-hard-way
 * kubectx config delete-context kubernetes-the-hard-way // to delete a context called kubernetes-the-hard-way
+* kubectl create namespace testing
 
 # Kubernetes Services Types
 
@@ -50,10 +51,10 @@ What are containers and why do you need them?
 Can install this using ''' brew install kubectx '''
 
 # Deploying metrics from mongo to prometheus 
-• https://github.com/helm/charts/tree/master/stable/prometheus-mongodb-exporter
+* https://github.com/helm/charts/tree/master/stable/prometheus-mongodb-exporter
 
 # Secrets, Configmaps and values
-• Kubernetes secret objects let you store and manage sensitive information, such as passwords, OAuth tokens, and ssh keys.
+* Kubernetes secret objects let you store and manage sensitive information, such as passwords, OAuth tokens, and ssh keys.
 
 • Putting this information in a secret is safer and more flexible than putting it verbatim in a Pod definition or in a container image.
 # Prometheus
