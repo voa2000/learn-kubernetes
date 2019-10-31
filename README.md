@@ -28,7 +28,7 @@ When traffic increases, we will need to scale the application to keep up with us
 
 * Scaling is accomplished by changing the number of replicas in a Deployment
 -  kubectl scale deployments/wordpress-mysql --replicas=4 // creates 4 including the one that already exist.
--  kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2 //update app
+-  kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/kubernetes-bootcamp:v2  //update app
 -  kubectl rollout status deployments/kubernetes-bootcamp // rollback app
 -  kubectl rollout undo deployments/kubernetes-bootcamp //revert to the previous version 
 
