@@ -33,7 +33,7 @@ When traffic increases, we will need to scale the application to keep up with us
 -  kubectl rollout undo deployments/kubernetes-bootcamp //revert to the previous version 
 
 
-Course on udemy
+Course on Udemy
 * https://classroom.udacity.com/courses/ud615
 
 # Containers
