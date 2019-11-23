@@ -45,15 +45,15 @@ Here are two articles with a good write-ups about containers, if you want to go 
 ### Cheatsheet for K8s
 * https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
-#  Shortcuts for running kubernetes on bash
+###  Shortcuts for running kubernetes on bash
 
 * https://github.com/ahmetb/kubectx/blob/master/kubens
 Can install this using ''' brew install kubectx '''
 
-# Deploying metrics from mongo to prometheus 
+### Deploying metrics from mongo to prometheus 
 * https://github.com/helm/charts/tree/master/stable/prometheus-mongodb-exporter
 
-# Secrets, Configmaps and values
+### Secrets, Configmaps and values
 * Kubernetes secret objects let you store and manage sensitive information, such as passwords, OAuth tokens, and ssh keys.
 
 • Putting this information in a secret is safer and more flexible than putting it verbatim in a Pod definition or in a container image.
@@ -61,7 +61,7 @@ Can install this using ''' brew install kubectx '''
 • https://hub.docker.com/r/prom/prometheus/
 • https://github.com/percona/mongodb_exporter
 
-# IAM and RBAC
+### IAM and RBAC
 Grant read only access with IAM, build on that with granular RBAC config.
 1. https://medium.com/uptime-99/making-sense-of-kubernetes-rbac-and-iam-roles-on-gke-914131b01922
 2. https://medium.com/google-cloud/gke-monitoring-84170ea44833
@@ -69,9 +69,9 @@ Grant read only access with IAM, build on that with granular RBAC config.
 
 *  This has given me a good understanding of Kubernetes - https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/docs/14-cleanup.md
 
-# Port forwarding on kubernetes
+### Port forwarding on kubernetes
 
 *   The video is about installing grafana to pull data from grafana by editing values file https://www.youtube.com/watch?v=CmPdyvgmw-A
 
-# Kubernetes Certification Course
+### Kubernetes Certification Course
 *  https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/learn/lecture/15264182#overview
