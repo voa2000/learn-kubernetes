@@ -15,14 +15,14 @@ Multiple Pods can run on one Node.
 * kubectx config delete-context kubernetes-the-hard-way // to delete a context called kubernetes-the-hard-way
 * kubectl create namespace testing
 
-# Kubernetes Services Types
+### Kubernetes Services Types
 
 * ClusterIP (default) - Exposes the Service on an internal IP in the cluster. This type makes the Service only reachable from within the cluster.
 * NodePort - Exposes the Service on the same port of each selected Node in the cluster using NAT. Makes a Service accessible from outside the cluster using <NodeIP>:<NodePort>. Superset of ClusterIP. Range 30000-32767
 * LoadBalancer - Creates an external load balancer in the current cloud (if supported) and assigns a fixed, external IP to the Service. Superset of NodePort.
 * ExternalName - Exposes the Service using an arbitrary name (specified by externalName in the spec) by returning a CNAME record with the name. No proxy is used. This type requires v1.7 or higher of kube-dns.
 
-# Scaling an application
+### Scaling an application
 * In the previous modules we created a Deployment, and then exposed it publicly via a Service. The Deployment created only one Pod for running our application. 
 When traffic increases, we will need to scale the application to keep up with user demand.
 
@@ -33,16 +33,16 @@ When traffic increases, we will need to scale the application to keep up with us
 -  kubectl rollout undo deployments/kubernetes-bootcamp //revert to the previous version 
 
 
-Course on Udemy
+### Course on Udemy
 * https://classroom.udacity.com/courses/ud615
 
-# Containers
+### Containers
 Here are two articles with a good write-ups about containers, if you want to go more in-depth about container technology:
 
 . Containers bring a skinny new world of virtualization to Linux
 . What are containers and why do you need them?
 
-# Cheatsheet for K8s
+### Cheatsheet for K8s
 * https://kubernetes.io/docs/reference/kubectl/cheatsheet/
 
 #  Shortcuts for running kubernetes on bash
