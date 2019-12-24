@@ -70,7 +70,6 @@ Grant read only access with IAM, build on that with granular RBAC config.
 *  This has given me a good understanding of Kubernetes - https://github.com/kelseyhightower/kubernetes-the-hard-way/blob/master/docs/14-cleanup.md
 
 ### Port forwarding on kubernetes
-
 *   The video is about installing grafana to pull data from grafana by editing values file https://www.youtube.com/watch?v=CmPdyvgmw-A
 
 ### Kubernetes Certification Course
