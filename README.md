@@ -1,4 +1,4 @@
-# Learn Kubernetes using minikube and GCP
+# Learn Kuberneyytes using minikube and GCP
 
 A node is a worker machine in Kubernetes and may be a VM or physical machine, depending on the cluster. 
 Multiple Pods can run on one Node.
