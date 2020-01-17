@@ -9,7 +9,7 @@ Multiple Pods can run on one Node.
 * kubectl exec - execute a command on a container in a pod
 * kubectl get replicaset or rs
 * kubectl config set-context $(kubectl config current-context) --namespace=nameofnamespace // to switch namespaces
-* kubectl get pods --all-namespaces //to list all pods in all namespaces
+* kubectl get pods --a. ll-namespaces //to list all pods in all namespaces
 * kubectl get service . // to display all the services avaiable
 * kubectx config delete-cluster kubernetes-the-hard-way // to delete a cluster called kubernetes-the-hard-way
 * kubectx config delete-context kubernetes-the-hard-way // to delete a context called kubernetes-the-hard-way
